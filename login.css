@@ -1,35 +1,98 @@
+/*  naamscript    : versiebeheer */
+/*  omschrijving  : klantenonderhoud systeem */
+/*  aamontwikelaar: Jaiden Troenodikromo */
+
 body {
+    font-family: 'Arial', sans-serif;
+    background-color: #EDE4D9;
+    color: #5A4632;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
 }
 
-.container {
-    width: 300px;
-    padding: 20px;
-    background: white;
-    border: 2px solid black;
+header {
+    background-color: #C4B6A5;
+    padding: 1.5rem;
     text-align: center;
+    border-bottom: 2px solid #9C8F7A;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
-h2 {
-    margin-bottom: 20px;
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #3E2F23;
 }
 
-input {
-    width: 90%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid black;
-}
-
-button {
-    padding: 10px 20px;
-    border: 1px solid black;
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D4C4B5;
+    padding: 2rem;
     border-radius: 15px;
-    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 100px;
+}
+
+.auth h2 {
+    margin-bottom: 1rem;
+    color: #3E2F23;
+}
+
+.auth input {
+    width: 90%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #9C8F7A;
+    border-radius: 10px;
+}
+
+.auth button {
+    background-color: #9C8F7A;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 15px;
     cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    transition: background 0.3s ease;
+}
+
+.auth button:hover {
+    background-color: #7D6A59;
+}
+
+.auth p {
+    margin-top: 1rem;
+}
+
+.auth a {
+    color: #5A4632;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #C4B6A5;
+    color: #3E2F23;
+    border-top: 2px solid #9C8F7A;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
