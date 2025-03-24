@@ -1,0 +1,85 @@
+/*  naamscript    : versiebeheer*/
+/*  omschrijving  : klantenonderhoud systeem */
+/* aamontwikelaar: Jay Ramkisoen Panday*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #EDE4D9;
+    color: #5A4632;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #C4B6A5;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #9C8F7A;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #3E2F23;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav button {
+    background-color: #9C8F7A;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+nav button:hover {
+    background-color: #7D6A59;
+}
+
+.auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 300px;
+    background-color: #D4C4B5;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.auth input {
+    display: block;
+    width: 90%;
+    margin: 0.5rem auto;
+    padding: 0.8rem;
+    border: 1px solid #9C8F7A;
+    border-radius: 10px;
+}
+
+.auth button {
+    background-color: #9C8F7A;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #C4B6A5;
+    color: #3E2F23;
+    border-top: 2px solid #9C8F7A;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
